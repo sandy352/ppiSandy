@@ -14,7 +14,7 @@ public class AppWebConfiguration {
 	@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-		resolver.setPrefix("/WEB-IF/views/");
+		resolver.setPrefix("/WEB-INF/views/");
 		return resolver;
 }
 }
