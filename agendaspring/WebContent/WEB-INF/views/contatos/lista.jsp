@@ -10,6 +10,7 @@
 </head>
 <body>
 
+ 	<c:import url="../menu.jsp"></c:import>
 	<table border>
 		<thead>
 			<tr>
@@ -27,6 +28,7 @@
 					<td>${contato.email}</td>
 					<td>${contato.endereco}</td>
 					<td>${contato.dataNascimento.time}</td>
+					<td><a href="/agendaspring/contatos/remover?id=${contato.id}">Remover</a></td>
 				</tr>
 
 			</c:forEach>

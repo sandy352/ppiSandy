@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import agenda.daos.ContatoDAO;
-import agenda.models.Contato;
+import agendaspring.models.Contato;
 @WebServlet("/listarContatos")
 public class ListarContatosServlet extends HttpServlet{
 	

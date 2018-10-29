@@ -1,6 +1,8 @@
-package agenda.models;
+package agendaspring.models;
 
 import java.util.Calendar;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 public class Contato {
 
@@ -8,6 +10,7 @@ public class Contato {
 	private String nome;
 	private String email;
 	private String endereco;
+	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Calendar dataNascimento;
 
 	public Long getId() {

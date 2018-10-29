@@ -1,4 +1,4 @@
-package agenda.daos;
+package agendaspring.daos;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

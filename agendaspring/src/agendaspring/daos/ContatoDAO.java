@@ -1,4 +1,4 @@
-package agenda.daos;
+package agendaspring.daos;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import agenda.models.Contato;
+import agendaspring.models.Contato;
 
 public class ContatoDAO {
 
